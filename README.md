@@ -40,7 +40,9 @@ Users can create posts, comment, and like posts. Admins can manage all content.
 - **Backend:** Java 17, Spring Boot, Spring Security, Spring Data JPA  
 - **Database:** PostgreSQL  
 - **Authentication:** JWT  
+- **Build Tool:** Maven  
 - **Validation:** Jakarta Validation (`@NotBlank`, `@Size`, etc.)
+
 
 ---
 
