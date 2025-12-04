@@ -51,18 +51,15 @@ Users can create posts, comment, and like posts. Admins can manage all content.
 |--------|---------|-------------|---------------|
 | POST   | /auth/register | Register a new user | No |
 | POST   | /auth/login    | Login and receive JWT token | No |
-
 | GET    | /posts         | Get all posts | No |
 | GET    | /posts/{id}    | Get a single post | No |
 | POST   | /posts         | Create a new post | Yes |
 | PUT    | /posts/{id}    | Update entire post (owner/admin) | Yes |
 | DELETE | /posts/{id}    | Delete a post (owner/admin) | Yes |
-
 | GET    | /posts/{postId}/comments | Get all comments for a post | No |
 | POST   | /posts/{postId}/comments | Add a comment to a post | Yes |
 | PUT    | /comments/{id}           | Update comment (author/admin) | Yes |
 | DELETE | /comments/{id}           | Delete comment (author/admin) | Yes |
-
 | POST   | /posts/{postId}/likes    | Toggle like on a post | Yes |
 | GET    | /posts/{postId}/likes    | Get all likes for a post with usernames and timestamps | No |
 
